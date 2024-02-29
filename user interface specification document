@@ -1,0 +1,35 @@
+User Management Screen Specification
+##Introduction
+The user management screen is designed to allow administrators to manage users and their roles within the system. The screen should be user-friendly and easy to navigate, providing clear instructions and guidance for users.
+
+##Requirements
+  -The user management screen should display a list of all users in the system, including their name, email, ID and if they are enable or not.
+  -The screen should allow administrators to add users.
+  -The screen should provide a way to assign roles to users, with options for different levels of access and permissions such as "Guest, Admin and Superadmin".
+  -The screen should include a search function to help users find specific users quickly such as displaying onyl enabled users.
+
+##UI Components
+  -User List: A table or list displaying all users in the system, with columns for name, email, ID and if they are enable or not.
+  -User Actions: Buttons or links for adding, users, as well as for assigning roles.
+  -Search Field: A search bar for users to find specific users quickly.
+  -Role Selection: A dropdown menu or set of radio buttons for selecting roles and assigning permissions.
+
+##Behavior of the Page
+  -When the user management screen is loaded, it should display a list of all users in the system by default.
+  -The user list should be sortable by name, email, ID.
+  -When a user is selected, their details should be displayed in a separate section below the list.
+  -When a user is added, the changes should be saved and reflected in the user list and details.
+
+##New User Section
+
+The new user section is a vital component of the user management screen, allowing administrators to create new user accounts. The section includes the following inputs:
+
+  -Username: A unique identifier for the user.
+  -Display Name: The name that will be displayed to other users.
+  -Phone Number: A contact number for the user.
+  -Email: An email address for the user.
+  -User Role: The role assigned to the user upon account creation.
+  -Enabled/Disabled Toggle: A toggle switch to enable or disable the user account upon creation.
+
+Initial Display
+The user list should be displayed by default, with user action buttons.
